@@ -1,0 +1,116 @@
+
+body {
+    background: linear-gradient(135deg, #dceeff, #eee5ff, #fff1e6);
+    font-family: cursive;
+    color: #55516d;
+    margin: 0;
+    padding: 35px 15px;
+}
+
+h1 {
+    color: #7189bd;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #9b83bd;
+    border-bottom: 2px dashed #d5c5eb;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+
+form, .contenedor {
+    background-color: #fffdfb;
+    width: 85%;
+    max-width: 650px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px #b8b6d455;
+    border: 2px solid white;
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+    color: #69617f;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 95%;
+    padding: 12px;
+    margin: 8px 0 18px;
+    border: 2px solid #d9dff3;
+    border-radius: 12px;
+    background-color: #f8faff;
+    font-family: cursive;
+    outline: none;
+}
+
+input:focus {
+    border-color: #a99bd4;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d9dff3;
+    border-radius: 12px;
+    background-color: #f8faff;
+    font-family: cursive;
+    color: #55516d;
+}
+
+input[type="checkbox"] {
+    accent-color: #9b83bd;
+    width: 16px;
+    height: 16px;
+}
+
+button {
+    display: block;
+    margin: 25px auto 5px;
+    padding: 13px 30px;
+    background: linear-gradient(135deg, #8ba9d8, #b39bd5);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px #b8b6d477;
+}
+
+.contenedor p {
+    background-color: #f4f5ff;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+ul {
+    background-color: #f8f3ff;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+li {
+    padding: 5px;
+}
+
+.total {
+    background-color: #e8efff;
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #7189bd;
+    font-weight: bold;
+}
